@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
         headers: [
           {
             key: "Content-Security-Policy",
-            value: "frame-src 'self' https://opal.google https://*.google.com;",
+            value: "default-src 'self'; frame-src 'self' https://opal.google https://*.google.com; font-src 'self' https://*.vercel-storage.com https://*.vercel.com vercel.live data:; ",
           },
         ],
       },
