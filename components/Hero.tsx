@@ -14,7 +14,13 @@ const container = {
 
 const item = {
   hidden: { y: 30, opacity: 0 },
-  visible: { y: 0, opacity: 1, transition: { duration: 0.6, ease: [0.25, 0.1, 0.25, 1] } },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.6,
+    },
+  },
 };
 
 const TRUST_BADGES = [
